@@ -1,0 +1,224 @@
+@font-face
+{
+	font-family: 'Arimo';
+	src: url('Arimo-Regular.ttf') format('truetype');
+}
+
+@font-face
+{
+	font-family: 'Arimo';
+	font-style: italic;
+	src: url('Arimo-Italic.ttf') format('truetype');
+}
+
+@font-face
+{
+	font-family: 'Arimo';
+	font-style: bold;
+	src: url('Arimo-bold.ttf') format('truetype');
+}
+
+body
+{
+	font-family: 'Arimo';
+	font-style: normal;
+	font-weight: normal;
+}
+
+#top
+{
+	display: inline-flex;
+	width: 100%;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.gmaillink
+{
+	border-width: 8px 9px 10px 10px;
+	border-style: solid;
+	border-color: white;
+	margin-top: 8px;
+	color: #434343;
+}
+
+.imglink
+{
+	border-width: 8px 22px 10px 10px;
+	border-style: solid;
+	border-color: white;
+	margin-top: 8px;
+	color: #434343;
+}
+
+.connexionb
+{
+	width: 65px;
+	line-height: 28px;
+	color: #ffffff;
+	display: inline-block;
+	background-color: #4888f0;
+	text-align: center;
+	padding: 0 12px;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-radius: 2px 2px 2px 2px;
+	border-color: #4888f0;
+	font-size: 13px;
+	margin-left: 24px;
+	margin-top: 8px;
+	margin-right: 22px;
+}
+
+.image
+{
+	width: 15px;
+	margin-top: 7px;
+
+}
+
+.sec
+{
+	display: block;
+	height: 233px;
+	margin-top: 89px;
+	text-align: center;
+	padding-top: 60px;
+}
+
+.logo
+{
+	height: 92px;
+	width: 272px;
+	text-align: center;
+
+	
+}
+
+#searchbar 
+{
+	display: block;
+	border-radius: 2px;
+	text-align: center;
+	margin-left: 8px;
+	width: 100%;
+	overflow: hidden;
+	margin-top: -115px;
+}
+
+.formulaire
+{
+	display: inline-block;
+	box-shadow: -1px 2px 9px #c4c4c4;
+
+}
+
+.champ
+{
+	width: 585px;
+	height: 46px;
+	border-radius: 2px;
+	border-style: solid solid solid solid;
+	border-color: #bcbcbc;
+	border-width: 0.5px;
+}
+
+.dblbouton
+{
+	width: 100%;
+	margin: 10px;
+	display: inline-block;
+	text-align: center;
+}
+
+.bouton
+{
+	font-weight: bold;
+	margin-top: 6px;
+	width: 145px;
+	border-style: solid;
+	border-color: #f4f4f4;
+	background-color: #f4f4f4;
+	color: #7f7f7f;
+	font-size: 13px;
+	padding: 10px;
+}
+
+.bouton2
+{
+	font-weight: bold;
+	margin-right: 9px;
+	margin-top: 4px;
+	margin-left: 6px;
+	width: 145px;
+	border-style: solid;
+	border-color: #f4f4f4;
+	background-color: #f4f4f4;
+	color: #7f7f7f;
+	font-size: 13px;
+	padding: 10px;
+}
+
+.bouton:hover, .bouton2:hover
+{
+   border: 1px black solid;
+   color: black;
+}
+
+a
+{
+	text-decoration: none;
+   color: #71718F;
+   font-size: 12px;
+}
+a:hover
+{
+   color: #414141;
+   text-decoration: underline;
+}
+
+footer
+{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   background-color: #F2F2F2;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+}
+
+.bottombottom
+{
+   display: flex;
+   justify-content: space-between;
+}
+
+nav
+{
+   padding-top: 10px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-bottom: 10px;
+   border-width: 1px;
+   border-style: solid none none none;
+   border-color: #DDDDDD;
+}
+
+.france
+{
+   color: #71718F;
+}
+
+.publink, .entrepriselink, .aproposlink
+{
+   display: inline-block;
+   margin-right: 25px;
+}
+
+.confidentialitelink, .conditionslink, .parametreslink
+{
+   display: inline-block;
+   margin-left: 25px;
+}
